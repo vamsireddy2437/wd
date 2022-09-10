@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Task</title>
+  </head>
+  <body>
+    <header style="text-align: center">
+      <marquee>Welcome To my Site</marquee>
+    </header>
+
+    <div class="main">
+      <div class="form">
+        <h4>Register Form</h4>
+        <form id="user-form">
+          <label for="name">Name : </label><br />
+          <input required type="text" name="name" id="name" />
+          <br />
+          <br />
+          <label for="email">Email : </label><br />
+          <input required type="email" name="email" id="email" />
+          <br />
+          <br />
+          <label for="password">Password : </label><br />
+          <input required type="password" name="password" id="password" />
+          <br />
+          <br />
+          <label for="dob">DOB : </label><br />
+          <input type="date" name="dob" id="dob" required />
+          <br />
+          <br />
+          <input
+            style="width: 40px"
+            type="checkbox"
+            name="acceptTerms"
+            id="acceptTerms"
+          />
+          <label for="acceptTerms">Accept terms & Conditions</label>
+          <br />
+          <br />
+          <input
+            style="background-color: rgb(19, 151, 19); color: white"
+            type="submit"
+            value="Submit"
+          />
+        </form>
+      </div>
+    </div>
+    <div id="entrytbale"></div>
+    <script src="./scriptjs.js"></script>
+  </body>
+</html>
